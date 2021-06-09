@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Score Keeper</title>
+    <title>Score Keeper</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="container">
         <div id="main">
@@ -14,7 +16,22 @@
                     alt="PingPong">
                 <h1>Ping Pong Score Keeper</h1>
             </div>
+            <p><span>0</span> to <span>0</span></p>
+            <p>Use the buttons below to keep score</p>
+            <p class="btns">Playing To
+                <span>
+                    <div class="btns">
+                        <button id="drpdown" onclick="click();">1</button>
+                    </div>
+                </span>
+            </p>
+            <div>
+                <button class="controls btn1">+1 Player One</button>
+                <button class="controls btn2 ">+1 Player Two</button>
+                <button class="controls btn3">Reset</button>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
