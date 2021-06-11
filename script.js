@@ -1,6 +1,7 @@
 function playerOneClick() {
-    let playerOne = document.querySelector('#playerOne');
-    console.log(playerOne.innerHTML);
-    let z = parseInt(playerOne.innerHTML);
-    z += 1;   
+    let z = parseInt(document.querySelector('#playerOne').innerText);
+    // playerOne += 1;  
+     console.log(z);
+    // playerOne += 1;
+    z = z +1;
 }
