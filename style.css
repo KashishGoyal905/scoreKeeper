@@ -86,3 +86,11 @@ p:nth-of-type(2){
     color: white;
 }
 
+.winner{
+    color: green;
+}
+
+.loser{
+    color:red;
+}
+
