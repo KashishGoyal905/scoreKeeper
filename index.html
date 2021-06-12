@@ -16,22 +16,32 @@
                     alt="PingPong">
                 <h1>Ping Pong Score Keeper</h1>
             </div>
-            <p><span>0</span> to <span>0</span></p>
-            <p>Use the buttons below to keep score</p>
-            <p class="btns">Playing To
+            <p><span id="playerOne">0</span> to <span id="playerTwo">0</span0</span></p>
+            <p >Use the buttons below to keep score</p>
+            <p class="btns">Playing To:
                 <span>
-                    <div class="btns">
-                        <button id="drpdown" onclick="click();">1</button>
-                    </div>
+                   <select id="choosePlayer">
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                       <option value="11">11</option>
+                   </select>
                 </span>
             </p>
             <div>
-                <button class="controls btn1">+1 Player One</button>
-                <button class="controls btn2 ">+1 Player Two</button>
-                <button class="controls btn3">Reset</button>
+                <button class="controls btn1" onclick="playerOneClick();">+1 Player One</button>
+                <button class="controls btn2 " onclick="playerTwoClick();">+1 Player Two</button>
+                <button class="controls btn3" onclick="playerThreeClick();">Reset</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
